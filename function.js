@@ -1,3 +1,4 @@
+// Navbar functionality of changing the position of the website when interacted upon
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', e => {
     const target = document.querySelector(link.getAttribute('href'));
@@ -8,6 +9,7 @@ document.querySelectorAll('nav a').forEach(link => {
   });
 });
 
+// Slideshow functionality 
 let slideIndex = 1;
 showSlides(slideIndex);
 
